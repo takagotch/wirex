@@ -19,7 +19,25 @@ class cryptoHelperUrls: XCTestCase {
   
 }
 
-
+// WirexUtilsTests/BtcPaymentURITests.swift
+class BtcPaymentURITests: XCTestCase {
+  
+  override func setUp() {
+    super.setUp()
+  }
+  
+  override func tearDown() {
+    super.tearDown()
+  }
+  
+  func testCreate() {
+  }
+  
+  func testParse() {
+    let u1 = CryptoPaymentURI()
+    XCTAssertEqual()
+  }
+}
 
 ```
 
